@@ -1,0 +1,103 @@
+
+body{
+    margin: 0 auto;
+    background-color: rgba(59, 121, 192, 0.596);
+}
+
+.menu{
+    position: fixed;
+    background-color: rgb(70, 70, 240);
+    width: 100%;
+    text-align: center;
+    height: 15%;  
+    z-index: 999;      
+}
+li{
+    position: relative;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+.logo{
+    float: left;
+    float: top;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.conteudo-left{
+    position: absolute;
+    padding-left: 2%;
+    width: 50%;
+    height: max-content;    
+    font-size: 20px;
+    font-family: "Helvetica";
+    
+}
+.titulo{
+    font-size: 30px;
+    font-family: "Helvetica";
+    text-align: center;
+}
+.conteudo-1{
+    position: relative;
+    margin-top: 20%;
+    color: black;
+    margin-left: 1%;
+    text-align: justify;
+}
+.conteudo-2{
+    margin-left: 1%;
+    text-align: justify;
+    margin-top: 5%
+}
+.conteudo-3{
+    margin-left: 1%;
+    text-align: justify;
+    margin-top: 5%;
+}
+.conteudo-4{
+    margin-left: 1%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+#galeria{
+    width: 100%;
+    height: 448px;
+    transition: background-image 2s;
+    background-repeat: no-repeat;
+
+}
+
+.proximo{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 30%;
+}
+.anterior{
+    position: absolute;
+    margin-top: 30%;
+}
+.conteudo-right{
+    position: fixed;
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 55%;
+}
+.footer{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+    height: 10%;
+    margin-top: 100%;
+    width: 100%;
+    background-color: #3174A8;
+}
