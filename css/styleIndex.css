@@ -8,9 +8,9 @@ body{
     position: fixed;
     background-color: rgb(70, 70, 240);
     width: 100%;
-    text-align: center;
     height: 15%;  
-    z-index: 999;      
+    z-index: 999; 
+         
 }
 li{
     position: relative;
@@ -22,10 +22,10 @@ li{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     vertical-align: middle;
+
 }
-.logo{
-    float: left;
-    float: top;
+li .imgg{
+    justify-content: start;
 }
 a{
     text-decoration: none;
