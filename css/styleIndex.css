@@ -96,7 +96,7 @@ a{
     font-family: Helvetica;
     font-size: 20px;
     text-align: center;
-    height: 10%;
+    height: max-content;
     margin-top: 100%;
     width: 100%;
     background-color: #3174A8;
