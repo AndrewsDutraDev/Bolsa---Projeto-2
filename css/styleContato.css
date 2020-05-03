@@ -1,8 +1,7 @@
 body{
     margin: 0 auto;
-    background-color: white;
+    background-color:white;
 }
-
 .menu ul li a {
     display: inline-block;
     text-decoration: none;
@@ -26,7 +25,7 @@ body{
     border-bottom: 2px blue;
     color: red ;
 }
-.menu li{
+li{
     position: relative;
     text-transform: uppercase;
     list-style-type: none;
@@ -37,50 +36,40 @@ body{
     
 
 }
-
+.imagem{
+    margin-left: -5%;
+    padding-left: 6%;
+    
+}
 a{
     text-decoration: none;
     color:white;
 }
-.imagem{
-    margin-left: -3%;
-    padding-left: 5%;
+.formulario{
+    width: max-content;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40%;
+    padding-right: 5%;
+    width: 100%;
+}
+input{
+    display: block;
+    border: 1px solid black;
+}
 
+h1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 15%;
     
 }
-.background{
-    position: absolute;
-    margin-top: 10%;
-    width:100%;
-}
-.conteudo{
-    position: relative;
-    width:50%;
-    margin-left: 25%;
-}
-.titulo{
-    position: relative;
-    font-size: 40px; 
-    font-family: Arial, Helvetica, sans-serif;   
-}
-.publicados{
-    font-weight: bold;
-    text-align: justify;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-hr{
-    border-color: teal;
-}
-.espaçoPub{
-    margin-top:5%;
-}
-.footer{
-    position: absolute;
-    font-family: Helvetica;
-    font-size: 20px;
-    text-align: center;
-    height: max-content;
-    width:100%;
-    background-color: #3174A8;
+
+textarea {
+    display: block;
+    border: 1px solid black;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
 }
