@@ -24,11 +24,11 @@
     
     <div class="formulario">
         <h1> Contato </h1>
-        <form>
-            <p> Nome <input type="text" size="30"> </p> 
-            <p> Telefone <input type="text" size="30"> </p>
-            <p> Email <input type="email" size="30"> </p>
-            <p> Assunto <input type="text" size="30"> </p>
+        <form method="POST" action="enviarContato.php" name="form"> 
+            <p> Nome <input type="text" size="30" name="nome"> </p> 
+            <p> Telefone <input type="text" size="30" name="telefone"> </p>
+            <p> Email <input type="email" size="30" name="email"> </p>
+            <p> Assunto <input type="text" size="30"name="assunto"> </p>
             <p class="text">Mensagem <textarea name="mensagem" rows="5" cols="30"> </textarea></p>
             <input type ="submit" value="Enviar" class="enviar" size="30"> 
             <input type="reset" value="Limpar" class="enviar"> 

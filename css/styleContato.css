@@ -50,12 +50,17 @@ a{
     position: absolute;
     margin-top: 100px;
     margin-left: 45%;
-    padding-right: 5%;
-    
+    padding-right: 5%;    
 }
+
 input{
     display: block;
     border: 1px solid black;
+}
+input[type=text],
+input[type=email],
+textarea{
+    border-radius: 5px;
 }
 
 /*h1{
@@ -94,6 +99,7 @@ textarea {
     display: inline;    
     font-size:20px;
     font-family: 'Helvetica';
+    margin-top: 10px;
     
 }
 .formulario h1{
