@@ -1,5 +1,8 @@
+*{
+    margin:0;
+}
 body{
-    margin: 0 auto;
+    
     background-color: white;
 }
 
@@ -13,8 +16,8 @@ menu ul li a {
     position: fixed;
     background-color: rgb(70, 70, 240);
     width: 100%;
-    height: max-content;  
-    z-index: 999;
+    height: 100px;  
+    z-index: 1;
          
 }
 .menu ul li a:hover{
@@ -35,12 +38,13 @@ li{
     padding-left: 4%;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    top:40px;
     
 
 }
 .imagem{
-    margin-left: -5%;
-    padding-left: 6%;
+    float: left;
+    margin: 10px 10px;
     
 }
 a{
@@ -57,6 +61,7 @@ a{
     width: max-content;
     margin-left: 10%;
     margin-top: 10%;
+    
 }
 .break{
     flex-basis: 100%;
@@ -66,12 +71,12 @@ a{
     margin-top:5%;
 }
 .footer{
-    position: absolute;
+    float: left;
     font-family: Helvetica;
     font-size: 20px;
     text-align: center;
     height: max-content;
-    margin-top: 100%;
+    margin-top: 90%;
     width: 100%;
     background-color: #3174A8;
 }

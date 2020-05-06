@@ -1,6 +1,7 @@
-
+*{
+    margin: 0;
+}
 body{
-    margin: 0 auto;
     background-color:white;
 }
 .menu ul li a {
@@ -12,8 +13,8 @@ body{
     position: fixed;
     background-color: rgb(70, 70, 240);
     width: 100%;
-    height: max-content;  
-    z-index: 999;
+    height: 100px; 
+    z-index: 1;
          
 }
 .menu ul li a:hover{
@@ -33,13 +34,14 @@ li{
     display: inline;
     padding-left: 4%;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica';
+    top:40px;
     
 
 }
 .imagem{
-    margin-left: -5%;
-    padding-left: 6%;
+    float: left;
+    margin: 10px 10px;
     
 }
 a{
@@ -47,10 +49,10 @@ a{
     color:white;
 }
 .conteudo-left{
-    position: absolute;
+    padding-top: 120px;
+    float: left;
     padding-left: 2%;
-    width: 50%;
-    height: max-content;    
+    width: 40%;   
     font-size: 20px;
     font-family: "Helvetica";
     
@@ -60,30 +62,17 @@ a{
     font-family: "Helvetica";
     text-align: center;
 }
-.conteudo-1{
-    position: relative;
-    margin-top: 20%;
-    color: black;
-    margin-left: 1%;
-    text-align: justify;
-}
-.conteudo-2{
-    margin-left: 1%;
-    text-align: justify;
-    margin-top: 5%
-}
-.conteudo-3{
-    margin-left: 1%;
-    text-align: justify;
-    margin-top: 5%;
-}
-.conteudo-4{
-    margin-left: 1%;
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
-    margin-top: 5%;
+}
+p{
+    text-align: justify;
 }
 
 #galeria{
+    position: fixed;
     width: 100%;
     height: 448px;
     transition: background-image 2s;
@@ -91,31 +80,34 @@ a{
 
 }
 
-.proximo{
-    position: absolute;
-    margin-left: 85%;
-    margin-top: 30%;
-}
-.anterior{
-    position: absolute;
-    margin-top: 30%;
-}
 .conteudo-right{
-    position: fixed;
-    width: 50%;
-    margin-top: 10%;
-    margin-left: 55%;
+    padding-top: 120px;
+    float: right;
+    width:50%;
 }
 .footer{
-    position: absolute;
+    float: left;
     font-family: Helvetica;
     font-size: 20px;
     text-align: center;
-    height: max-content;
-    margin-top: 100%;
     width: 100%;
+    height: 70px;
+    margin-top: 150px;
     background-color: #3174A8;
 }
-.formulario{
-    position: absolute;
+.footer p{
+    text-align: center;
 }
+@media screen and (max-width: 768px) {
+    .conteudo-right{
+        display: none;
+    }
+    .conteudo-left{
+        width: 99%;
+        font-size: 14px;
+    }
+    .footer{
+        margin-bottom: 0;
+    }
+}
+    
