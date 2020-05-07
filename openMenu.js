@@ -1,6 +1,6 @@
 function openMenu() {
     var button = document.getElementById('bt');
-    button.style.height = '350px';
+    button.style.height = '310px';
     document. getElementById('closebt').setAttribute('onclick', 'closeMenu()');
 }
 
