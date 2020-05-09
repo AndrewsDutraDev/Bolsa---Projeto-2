@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meninas C3 - Ideia 2</title>
     <link rel="stylesheet" type="text/css" href="css/styleContato.css">
+    <script type="text/javascript" src="openMenu.js"></script>
     
 </head>
-<body onload="start()">
-    <div class="menu">
+<body>
+    <header>
         <img class="imagem" src="Imagens/LogoFinal.png" height="70" width="100"> 
-        <img class="imagem" src="Imagens/logoC32 (1).png" height="70" width="170">
-        <ul>
-            <li>  <a href="index.html"> Início     </li></a>
-            <li>  <a href="material.html"> Material    </li></a>
-            <li>  <a href="equipe.html" title="teste"> Equipe  </li> </a>
-            <li>  <a href="galeria.html" title="teste"> Galeria de Fotos  </li> </a>
-            <li>  <a href="publicacoes.html" title="teste"> Publicações  </li> </a>
-            <li>  <a href="contato.html" title="teste"> Contato </li> </a>
-        </ul>
-    </div>
+        <img class="imagem" src="Imagens/logoC32 (1).png" height="70" width="170"> 
+        <button class="bt_menu" id="closebt" onclick="openMenu()"> </button>
+        <div class="menu" id="bt">         
+            <ul>
+                <li>  <a href="index.html"> Início     </li></a>
+                <li>  <a href="material.html"> Material    </li></a>
+                <li>  <a href="equipe.html" title="teste"> Equipe  </li> </a>
+                <li>  <a href="galeria.html" title="teste"> Galeria de Fotos  </li> </a>
+                <li>  <a href="publicacoes.html" title="teste"> Publicações  </li> </a>
+                <li>  <a href="contato.html" title="teste"> Contato </li> </a>
+            </ul>
+        </div>
+    </header>
     
     <div class="formulario">
         <h1> Contato </h1>

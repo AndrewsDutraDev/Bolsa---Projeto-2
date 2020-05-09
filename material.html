@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meninas C3</title>
     <link rel="stylesheet" type="text/css" href="css/styleMaterial.css">
+    <script type="text/javascript" src="openMenu.js"></script>
 </head>
 <body>
-    <div class="menu">
+    <header>
         <img class="imagem" src="Imagens/LogoFinal.png" height="70" width="100"> 
-        <img class="imagem" src="Imagens/logoC32 (1).png" height="70" width="170">
-        <ul>
-            <li>  <a href="index.html"> Início     </li></a>
-            <li>  <a href="material.html"> Material    </li></a>
-            <li>  <a href="equipe.html" title="teste"> Equipe  </li> </a>
-            <li>  <a href="galeria.html" title="teste"> Galeria de Fotos  </li> </a>
-            <li>  <a href="publicacoes.html" title="teste"> Publicações  </li> </a>
-            <li>  <a href="contato.html" title="teste"> Contato </li> </a>
-        </ul>
-    </div>
+        <img class="imagem" src="Imagens/logoC32 (1).png" height="70" width="170"> 
+        <button class="bt_menu" id="closebt" onclick="openMenu()"> </button>
+        <div class="menu" id="bt">         
+            <ul>
+                <li>  <a href="index.html"> Início     </li></a>
+                <li>  <a href="material.html"> Material    </li></a>
+                <li>  <a href="equipe.html" title="teste"> Equipe  </li> </a>
+                <li>  <a href="galeria.html" title="teste"> Galeria de Fotos  </li> </a>
+                <li>  <a href="publicacoes.html" title="teste"> Publicações  </li> </a>
+                <li>  <a href="contato.html" title="teste"> Contato </li> </a>
+            </ul>
+        </div>
+    </header>
     <div class="background">
         <div class="dropdown">
             <button class="dropbtn">Aulas de Scratch</button>
@@ -69,8 +73,58 @@
             </div>
         </div>             
     </div>
+    <div class="mobile">
+        <ul>
+            <li> Aulas de Scratch
+                <ul class="sublista">
+                    <li> <a href="Materiais/aula_1_explorando_scratch_1.pdf" download> Aula 01 - Explorando scratch</li> </a>
+                    <li><a href="Materiais/aula_2_movimento.pdf" download> Aula 02 - Movimento</li></a>
+                    <li> <a href="Materiais/aula_3_aparencia.pdf" download> Aula 03 - Aparência</a></li>
+                    <li> <a href="Materiais/aula_4_som.pdf" download> Aula 04 - Som</a></li>
+                    <li> <a href="Materiais/aula_5_caneta.pdf" download> Aula 05 - Caneta</a></li>
+                    <li> <a href="Materiais/aula_6_controle.pdf" download> Aula 06 - Controle</a></li>
+                    <li> <a href="Materiais/aula_7_sensores.pdf" download> Aula 07 - Sensores</a></li>
+                    <li> <a href="Materiais/aula_8_operadores.pdf" download> Aula 08 - Operadores</li></a>
+                    <li> <a href="Materiais/aula_9_variveis.pdf" download> Aula 09 - Variáveis</a></li>
+                </ul>
+            </li>
+            <li> Caic - 2017 
+                <ul class="sublista">
+                    <li><a href="/Materiais/aula-01.pdf" download>Aula 1 - Introdução ao curso </a></li>
+                    <li><a href="/Materiais/aula-02.pdf" download>Aula 2 - Introdução á ferramenta Scratch</a></li>
+                    <li><a href="/Materiais/aula-03.pdf" download>Aula 3 -  Movimento</a></li>
+                    <li><a href="/Materiais/aula-04.pdf" download>Aula 4 - Aparência </a></li>
+                </ul>
+            </li>
+            <li> Apostila
+                <ul class="sublista">
+                    <li> <a href="/Materiais/apostila_scratch.pdf" download> Apostila scratch</a></li>
+                </ul>
+            </li>
+            <li> Exercícios 
+                <ul class="sublista">
+                    <li><a href="/Exercicios/exercícios_de_movimento.pdf" download> Exercícios de movimento </a></li>
+                    <li><a href="/Exercicios/exercícios_de_aparencia.pdf" download> Exercícios de aparência </a></li>
+                    <li><a href="/Exercicios/exercícios_de_som.pdf" download>Exercícios de som</a></li>
+                    <li><a href="/Exercicios/exercícios_de_caneta.pdf" download>Exercícios de caneta</a></li>
+                    <li><a href="/Exercicios/exercícios_de_controle.pdf" download>Exercpicios de controle </a></li>
+                    <li><a href="/Exercicios/exercícios_de_sensores.pdf" download> Exercícios de sensores </a></li>
+                </ul>
+            </li>
+            <li>Aulas de Code Org
+                <ul class="sublista">
+                    <li> O material encontra-se indisponível.</li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+        </ul>
+    </div>
     <div class="footer">
         <p> © 2020 C3 - Furg. Todos os direitos reservados | Design by</p>
+    </div>
     
 </body>
 </html>

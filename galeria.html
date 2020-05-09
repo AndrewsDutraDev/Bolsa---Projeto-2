@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meninas C3</title>
     <link rel="stylesheet" type="text/css" href="css/styleGaleria.css">
+    <script type="text/javascript" src="openMenu.js"></script>
 </head>
 <body>
-    <div class="menu">
+    <header>
         <img class="imagem" src="Imagens/LogoFinal.png" height="70" width="100"> 
-        <img class="imagem" src="Imagens/logoC32 (1).png" height="70" width="170">
-        <ul>
-            <li class="">  <a href="index.html"> Início     </li></a>
-            <li>  <a href="material.html"> Material    </li></a>
-            <li>  <a href="equipe.html" title="teste"> Equipe  </li> </a>
-            <li>  <a href="galeria.html" title="teste"> Galeria de Fotos  </li> </a>
-            <li>  <a href="publicacoes.html" title="teste"> Publicações  </li> </a>
-            <li>  <a href="contato.html" title="teste"> Contato </li> </a>
-        </ul>
-    </div>
+        <img class="imagem" src="Imagens/logoC32 (1).png" height="70" width="170"> 
+        <button class="bt_menu" id="closebt" onclick="openMenu()"> </button>
+        <div class="menu" id="bt">         
+            <ul>
+                <li>  <a href="index.html"> Início     </li></a>
+                <li>  <a href="material.html"> Material    </li></a>
+                <li>  <a href="equipe.html" title="teste"> Equipe  </li> </a>
+                <li>  <a href="galeria.html" title="teste"> Galeria de Fotos  </li> </a>
+                <li>  <a href="publicacoes.html" title="teste"> Publicações  </li> </a>
+                <li>  <a href="contato.html" title="teste"> Contato </li> </a>
+            </ul>
+        </div>
+    </header>
     <div class="background">
         <div class="titulo">
             Conclusão do minicurso da turma 2015 - Mate Amargo
@@ -43,8 +47,7 @@
             <a href="Imagens/Emef Altamir/zoom_5d4cf6c6844cd.jpg"><img src="Imagens/Emef Altamir/fotored2.jpg"></a>
             <div class="break"></div>
             
-        </div>
-        
+        </div>        
     </div>
     <div class="footer">
         <p> © 2020 C3 - Furg. Todos os direitos reservados | Design by </p>
