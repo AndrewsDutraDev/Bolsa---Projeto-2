@@ -170,28 +170,38 @@ textarea {
         margin-top:110%;
     }   
 }
-@media screen and (max-width:465px){
-    .footer{
-        margin-top:130%;
-        text-align: left;
-    }
-    body{
-        width:465px;
-    }
+@media screen and (max-width:465px){    
     .imagem{
         margin-left: 20px;
+        height: 50px;
+        width:80px
     }
     header{
         width:465px;
     }
     .bt_menu{
-        margin-right:50px;
+        margin-right:200px;
+        height:25px;
+        width: 25px;
+    }
+    .formulario{
+        margin-left: 20px;
+    }
+    .footer{
+        font-size: 20px;
+        margin-top:200%;
+        text-align: left;
     }
 }
-@media screen and (min-width:320px){
+/*@media screen and (min-width:320px){
     .imagem{
         height:50px;
         width:80px;
     }
+    .bt_menu{
+        margin-right:120px;
+    }
+    
+    
 }
 

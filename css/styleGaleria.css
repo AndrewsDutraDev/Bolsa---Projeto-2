@@ -157,4 +157,47 @@ a{
         width: 90%;
     }
   }
+@media screen and (max-width:465px){    
+    .imagem{
+        margin-left: 20px;
+        height: 30px;
+        width:50px
+    }
+    header{
+        width:465px;
+    }
+    .bt_menu{
+        margin-right:250px;
+        height:15px;
+        width: 15px;
+    }
+    .formulario{
+        margin-left: 20px;
+    }
+    .footer{
+        font-size: 12px;
+        margin-top:200%;
+        text-align: left;
+        height:40px;
+        width: 400px;
+    }
+    .fotos img{
+        height:200px;
+        width:220px;
+        margin-left: 25%;
+    }
+    body{
+        max-width: 465px;
+    }
+    .background{
+        margin-left: 0;
+    }
+    .titulo{
+        font-size: 12px;
+        
+    }
+    .menu ul li{
+        text-align: left;
+    }
+}
   
