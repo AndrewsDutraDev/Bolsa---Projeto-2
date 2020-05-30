@@ -87,7 +87,7 @@ a{
     width: 100%;
     background-color: #3174A8;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
     .bt_menu{
         margin: 15px 20px; 
         width: 50px;
@@ -102,6 +102,7 @@ a{
         background-position: center;
         background-repeat: no-repeat;
         display: initial;
+        margin-right: 15px;
     }
     .menu {
         transition: 0.8s;

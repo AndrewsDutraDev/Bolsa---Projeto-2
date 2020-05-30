@@ -127,20 +127,19 @@ hr{
     text-align: center;
     
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .coordLeft{
         display: none;
 
     }
     .titulo{
-        padding-top: 100px;
+        padding-top: 90px;
     }
     .bolsistas{
         display: none;
     }
     .celular{
         display: block;
-        text-align: center;
     }
     .footer{
         margin-bottom: 0;
@@ -198,6 +197,53 @@ hr{
         padding: 10px;
         transition: 0.3s;        
     }
+}
+@media screen and (min-width:465px){
+    .titulo{
+        font-size: 30px;
+    }
+    .nome{
+        font-size:14px;
+    }
+    .descricao{
+        font-size: 12px;
+    }
+    .bt_menu{
+        height:40px;
+        width: 40px;
+        margin-right:100px;
+    }
+    .footer{
+        font-size: 12px;
+        height:35px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:465px){
+    .imagem{
+        height:40px;
+        width:60px;
+    }
+    .bt_menu{
+        height:40px;
+        width: 40px;
+    }
+    .footer{
+        max-width:100%;
+        float: left;
+        font-size: 12px;
+        height:30px;
+    }
+    .titulo{
+        font-size: 24px;
+    }
+    .nome{
+        font-size:12px;
+    }
+    .descricao{
+        font-size: 10px;
+    }
+    
+    
 }
 
     

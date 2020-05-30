@@ -87,6 +87,7 @@ header{
     padding-top: 120px;
     float: right;
     width:50%;
+    
 }
 .footer{
     float: left;
@@ -101,7 +102,7 @@ header{
 .footer p{
     text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .conteudo-right{
         display: none;
     }
@@ -167,5 +168,19 @@ header{
     }
     .equipe{
         margin-top: 100px;
+    }
+}
+@media screen and (max-width:465px){
+    .bt_menu{
+        margin-right:15px ;
+    }
+    .conteudo-left,.conteudo-right{
+        padding-left: 0;
+    }
+}
+@media screen and (min-width:320px){
+    .imagem{
+        height:50px;
+        width:80px;
     }
 }
